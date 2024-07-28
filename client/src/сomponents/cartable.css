@@ -1,0 +1,110 @@
+/* cartable.css */
+.container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.filters button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.filters span {
+	margin-right: 20px;
+}
+
+.filters button:hover {
+  background-color: #0056b3;
+}
+
+.filters button.active {
+  background-color: #0056b3;
+}
+
+.model-select {
+  margin: 20px 0;
+}
+
+.model-select button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #6c757d;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.model-select button:hover {
+  background-color: #0056b3;
+}
+
+.model-select button.active {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
+
+.pagination button.active {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.pagination .dots {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  background-color: white;
+  color: black;
+  cursor: default;
+  pointer-events: none;
+  border-radius: 4px;
+}
